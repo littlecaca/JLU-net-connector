@@ -1,0 +1,16 @@
+2024-04-30T20:03:01.271 INFO  console - Service 'JLU Net (jlu_network)' was refreshed successfully.
+2024-04-30T20:03:01.292 INFO  console - Starting service 'JLU Net (jlu_network)'...
+2024-04-30T20:03:01.597 DEBUG console - Starting WinSW in service mode.
+2024-04-30T20:03:01.629 INFO  console - Service 'JLU Net (jlu_network)' was refreshed successfully.
+2024-04-30T20:03:01.643 INFO  service - Starting D:\program\projects\JLU-net-connector\dogcom.exe
+2024-04-30T20:03:01.675 INFO  service - Started process dogcom (6068).
+2024-04-30T20:03:01.696 INFO  service - Service started successfully.
+2024-04-30T20:03:01.901 INFO  console - Service 'JLU Net (jlu_network)' started successfully.
+2024-04-30T20:03:10.655 INFO  console - Service 'JLU Net (jlu_network)' was refreshed successfully.
+2024-04-30T20:03:10.689 INFO  console - Stopping service 'JLU Net (jlu_network)'...
+2024-04-30T20:03:10.696 INFO  service - Stopping jlu_network
+2024-04-30T20:03:10.701 DEBUG service - ProcessKill 6068
+2024-04-30T20:03:10.711 INFO  service - Child process 'dogcom (6068)' canceled with code -1073741510.
+2024-04-30T20:03:10.745 INFO  service - Finished jlu_network
+2024-04-30T20:03:10.746 INFO  service - Service stopped successfully.
+2024-04-30T20:03:10.955 INFO  console - Service 'JLU Net (jlu_network)' stopped successfully.
