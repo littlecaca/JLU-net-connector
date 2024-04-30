@@ -40,9 +40,7 @@
   <name>JLU Net</name>
   <!-- Service description -->
   <description>Ji Lin University school network service</description>
-  <delayedAutoStart>true</delayedAutoStart>
   <!-- log -->
-  <log mode="roll"></log>
   <logpath>%BASE%\log</logpath>
   <!-- account-->
   <serviceaccount>
@@ -52,7 +50,16 @@
   <!-- Path to the executable, which should be started -->
   <executable>%BASE%\dogcom.exe</executable>
   <arguments>-m dhcp -c %BASE%\dogcom.conf</arguments>
-  
+
   <depend>RpcSs</depend>
+
+  <onfailure action="restart" delay="1 sec"/>
+  <onfailure action="restart" delay="2 sec"/>
+  <onfailure action="restart" delay="3 sec"/>
+  <onfailure action="restart" delay="4 sec"/>
+  <onfailure action="restart" delay="5 sec"/>
+  <onfailure action="restart" delay="6 sec"/>
+  <onfailure action="restart" delay="7 sec"/>
+  <onfailure action="restart" delay="8 sec"/>
 
 </service>
