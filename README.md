@@ -12,7 +12,7 @@ password = ''	// 密码
 #### 2. 安装jlu_network服务
 在项目主目录下，打开控制台（powershell或者cmd），执行以下命令安装windows服务：
 ```shell
-.\winsw.exe install .\config.xml
+.\winsw.exe install
 ```
 如果安装成功，打印如下信息：
 ```shell
@@ -22,7 +22,7 @@ Service 'JLU Net (jlu_network)' was installed successfully.
 #### 2.开启服务
 执行以下指令
 ```shell
-.\winsw.exe start .\config.xml
+.\winsw.exe start
 ```
 或者管理员身份打开命令行，执行
 ```shell
@@ -32,11 +32,11 @@ net start jlu_network
 #### 3.（可选）关闭服务
 如果暂时不再使用校园网，可以关闭服务，有两种方式：
 - 使用管理员身份打开power shell或者cmd，执行```net stop jlu_network```
-- ```.\winsw.exe stop config.xml```
+- ```.\winsw.exe stop```
 #### 4. (可选）卸载服务
 执行以下命令卸载服务
 ```shell
-.\winsw.exe uninstall config.xml
+.\winsw.exe uninstall
 ```
 或者管理员身份下使用window自带的服务管理工具:
 ```shell
