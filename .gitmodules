@@ -1,0 +1,3 @@
+[submodule "dogcom"]
+	path = dogcom
+	url = git@github.com:mchome/dogcom.git
