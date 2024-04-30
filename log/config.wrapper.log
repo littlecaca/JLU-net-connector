@@ -128,3 +128,32 @@
 2024-04-30T22:37:04.036 INFO  console - Service 'JLU Net (jlu_network)' stopped successfully.
 2024-04-30T22:37:09.776 INFO  console - Uninstalling service 'JLU Net (jlu_network)'...
 2024-04-30T22:37:09.804 INFO  console - Service 'JLU Net (jlu_network)' was uninstalled successfully.
+2024-04-30T23:43:48.525 INFO  console - Uninstalling service 'JLU Net (jlu_network)'...
+2024-04-30T23:43:48.556 WARN  console - Service 'JLU Net (jlu_network)' is started. It may be impossible to uninstall it.
+2024-04-30T23:43:48.557 INFO  console - Service 'JLU Net (jlu_network)' was uninstalled successfully.
+2024-04-30T23:44:10.155 INFO  console - Stopping service 'JLU Net (jlu_network)'...
+2024-04-30T23:44:10.440 FATAL console - 指定的服务未安装。
+2024-04-30T23:44:13.945 INFO  console - Uninstalling service 'JLU Net (jlu_network)'...
+2024-04-30T23:44:13.972 WARN  console - Service 'JLU Net (jlu_network)' does not exist.
+2024-04-30T23:44:31.859 INFO  console - Installing service 'JLU Net (jlu_network)'...
+2024-04-30T23:44:31.901 INFO  console - Service 'JLU Net (jlu_network)' was installed successfully.
+2024-04-30T23:47:26.769 DEBUG console - Starting WinSW in service mode.
+2024-04-30T23:47:26.886 FATAL console - Failed to open the service. 拒绝访问。
+2024-04-30T23:48:08.380 DEBUG console - Starting WinSW in service mode.
+2024-04-30T23:48:08.419 FATAL console - Failed to open the service. 拒绝访问。
+2024-04-30T23:52:34.927 INFO  console - Installing service 'JLU Net (jlu_network)'...
+2024-04-30T23:52:34.967 INFO  console - Service 'JLU Net (jlu_network)' was installed successfully.
+2024-04-30T23:52:40.484 INFO  console - Starting service 'JLU Net (jlu_network)'...
+2024-04-30T23:52:40.790 DEBUG console - Starting WinSW in service mode.
+2024-04-30T23:52:40.828 INFO  service - Starting D:\program\projects\JLU-net-connector\dogcom.exe
+2024-04-30T23:52:40.920 INFO  service - Started process dogcom (15380).
+2024-04-30T23:52:40.944 INFO  service - Service started successfully.
+2024-04-30T23:52:41.078 INFO  console - Service 'JLU Net (jlu_network)' started successfully.
+2024-04-30T23:52:55.312 INFO  service - Stopping jlu_network
+2024-04-30T23:52:55.316 DEBUG service - ProcessKill 15380
+2024-04-30T23:52:55.326 INFO  service - Child process 'dogcom (15380)' canceled with code -1073741510.
+2024-04-30T23:52:55.345 DEBUG service - Found child process 'WerFault (15352)'.
+2024-04-30T23:52:55.347 DEBUG service - Stopping process 'WerFault (15352)'...
+2024-04-30T23:52:55.353 DEBUG service - Process 'WerFault (15352)' terminated.
+2024-04-30T23:52:55.359 INFO  service - Finished jlu_network
+2024-04-30T23:52:55.359 INFO  service - Service was shut down successfully.
